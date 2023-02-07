@@ -1,0 +1,131 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+img {
+  vertical-align: bottom;
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+}
+label {
+  display: inline-block;
+}
+@font-face {
+  font-family: inter;
+  src: url(../fonts/static/Inter-Regular.ttf);
+  font-display: swap;
+}
+body {
+  font-family: inter, sans-serif;
+  font-size: 16px;
+}
+.outer {
+  max-width: 100%;
+}
+header {
+  background: #ffcd9e;
+  max-width: 90%;
+  margin: auto;
+  padding: 50px 70px;
+  display: flex;
+  flex-direction: row;
+}
+header .left {
+  flex: 1 0 60%;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #282828;
+}
+header p.text1 {
+  margin: 20px 0;
+  color: #484848;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 160%;
+}
+header h4 a {
+  color: #282828;
+  font-weight: 800;
+  font-size: 20px;
+}
+header form {
+  margin: 20px 0;
+}
+header input {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #282828;
+  background: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 8px;
+}
+header button {
+  background-color: #282828;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 20px;
+  border: 4px solid #ffcd9e;
+  border-radius: 8px;
+  font-weight: 700;
+}
+header p.text2 {
+  color: #fff;
+  font-weight: 500;
+  margin: 0px 10px;
+  font-size: 17px;
+}
+header.rightimg {
+  flex: 1 0 40%;
+}
+footer {
+  background-color: #282828;
+  max-width: 90%;
+  margin: auto;
+  padding: 50px 70px;
+  display: flex;
+  flex-direction: row;
+}
+footer .listleft {
+  flex: 1 1 50%;
+}
+footer a {
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+}
+footer .rightlist {
+  flex: 1 1 50%;
+  text-align: right;
+}
+footer .linksocial {
+  color: #ffcd9e;
+}
+footer .linksocial span {
+  border: 2px solid #ffcd9e;
+  padding: 2px 3px;
+  border-radius: 5px;
+  margin: 0 5px 20px 5px;
+  font-size: 16px;
+}
+footer .linksocial i {
+  font-size: 22px;
+}
